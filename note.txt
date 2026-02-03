@@ -37,6 +37,10 @@ imp: suppose we made a commit and the commit becomes fault. so in this case we c
 a) git reset --hard "abc"
 b) git revert "abc" : its a more efficient way and no data loss.
 
+MERGING : process of combining changes from one branch into another. basically used to merge branches.
+1. fast forward merge: target branch has no new commits. git can simply move the branch pointer forward. no merge commit is created.
+
+hello hello hello 
 
 
 
