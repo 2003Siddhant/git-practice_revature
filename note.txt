@@ -8,3 +8,9 @@ git has
 2) modified area : git tracks here but not in staging area. files which are been previously commited are changed here.
 3) staged area : here files which are needed to be saved in a repo are present.
 4) commited area : here the files are saved and can be used whenever required.
+
+Git commit : it stores the snapshot of the changes , a checkpoint is created. working directory becomes clean.
+
+git amend: used to change commit which has some mistakes. can only be done in local repo .
+
+git ignore :  tells git to not track this files. ex: when we import express , we dont need to keep the track of all the libraries it has imported. so we tell them to be inside git ignore.
