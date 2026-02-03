@@ -42,6 +42,9 @@ MERGING : process of combining changes from one branch into another. basically u
 --> before merging switch into the branch where you want to merge into and then merge it using 
 ex: git merge branch
 
+1) Git Diff: shows changes in the working directory that are not yet staged. we use this before git add .
+2) git diff HEAD : shows all changes since last commit , both staged and unstaged differences.
+3) git diff main feature : comparing branches.
 
 
 
