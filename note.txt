@@ -27,3 +27,17 @@ git checkout -b absdkjaf: it instantly creates new branch and switches the head
 git switch: its good for beginners, used only for branches
 ex: git switch -c abcd
 
+DELETION: deletes a local branch -> ex: git branch -d abcd
+-> allows deletion only if branch has been merged and no data lost.
+
+RENAME: for curr branch : git branch -m new-name
+for another branch: git branch -m old-name new-name --> just useful in naming conventions.
+
+imp: suppose we made a commit and the commit becomes fault. so in this case we cna remove it by making our head pointer change to the previous commit id. this can be done in 2 ways.
+a) git reset --hard "abc"
+b) git revert "abc" : its a more efficient way and no data loss.
+
+
+
+
+
