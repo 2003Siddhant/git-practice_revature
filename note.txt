@@ -13,3 +13,6 @@ Git commit : it stores the snapshot of the changes , a checkpoint is created. wo
 git amend: used to change commit which has some mistakes. can only be done in local repo .
 
 git ignore :  tells git to not track this files. ex: when we import express , we dont need to keep the track of all the libraries it has imported. so we tell them to be inside git ignore.
+
+imp: to change the branch from master to main -> git branch -m master main
+--> if main already exist then : git checkout main -> git switch main
