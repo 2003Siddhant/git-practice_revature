@@ -16,3 +16,14 @@ git ignore :  tells git to not track this files. ex: when we import express , we
 
 imp: to change the branch from master to main -> git branch -m master main
 --> if main already exist then : git checkout main -> git switch main
+
+BRANCHING: git has a default main branch where head points to it.
+Creates a new branch and doesn't switch to it and we remain on the current batch. 
+ex: git branch feature-login
+
+switching the branch : git checkout feature-login : it basically moves our head pointer and updates the working directory.
+
+git checkout -b absdkjaf: it instantly creates new branch and switches the head 
+git switch: its good for beginners, used only for branches
+ex: git switch -c abcd
+
