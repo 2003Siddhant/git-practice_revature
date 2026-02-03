@@ -1,0 +1,4 @@
+git has
+1) working directory: where we can save , edit or add new files
+2) staging area : wher git tracks the files and are ready to be commited. only this files will be commited.
+3) repository : here files that are commited will be saved and can be used whenever required.
