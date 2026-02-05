@@ -45,6 +45,25 @@ ex: git merge branch
 1) Git Diff: shows changes in the working directory that are not yet staged. we use this before git add .
 2) git diff HEAD : shows all changes since last commit , both staged and unstaged differences.
 3) git diff main feature : comparing branches.
+4) git diff --staged: changes already added to staging area , that will go into the next commit . 
+5) git diff cm1 cm2 : difference between 2 checkpoints.
+
+when to use?
+-> before staging , committing , merging and during debug.
+
+STASHING : git stash temporarily saves uncommitted changes so we can switch branches, work on something urgent and come back and continue later.
+-> suppose we want to do something urgent and required to switch branch and due to this we need to commit it but we think that there are some changes need to be done so what it does is saves uncommitted changes . it saves modified tracked files.
+1) git stash save "abc" : stash with a msg
+2) git stash pop : applies to the most recent stash and removes it from the stash list. we use it when we are done with the temp work.
+3) git stash apply : when we want to reuse the stash.
+
+-> each stash has an index => stash@12
+4) git stash drop stash@{0} : dropping a specific stash
+5) git stash clear : removes all stashes and this action is permanent.
+
+-> git checkout a commit: means going back to previous snapshot and project will be same as that point of commit, head will be pointing to the previous commit.
+-> we do it to inspect old code and debug when an issue was introduced. ex: git checkout <commit-hash>
+
 
 
 
